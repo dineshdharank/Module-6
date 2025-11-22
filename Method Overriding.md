@@ -19,11 +19,9 @@ class Fish:
     def type(self):
         print("fish")
 
-
 class Shark(Fish):
     def type(self):
         print("shark")
-
 
 obj_goldfish = Fish()
 obj_hammerhead = Shark()
